@@ -8,19 +8,25 @@
     <body> 
     <div class="weather-app"> 
     <header> 
-        <input type="search" placeholder="Enter the city.." required>
-        <input type="submit" value="Search">
+        <form  class= "search-form"> 
+        <input type= "search" placeholder= "Enter the city.." required class= "search-input">
+        <input type= "submit" value="Search" class= "search-button">
+    </form>
     </header>
+    <div class= "app-data"> 
     <div> 
-    <h1> Cape Town
+    <h1 class= "app-city"> Cape Town
     </h1>
-    <p> Tuesday 14:00, Scattered clouds
+    <p class="app-details"> Tuesday 14:00, Scattered clouds
      <br> 
-        Humadity:66%, Wind: 3,25km/h
+        Humadity: <strong> 66% </strong>, Wind: <strong> 3.25km/h </strong> 
     </p>
     </div>
-    <div>  
-        🌤️ 12°C 
+    <div class= "app-temperature-container">  
+       <div class="weather-emoji"> 🌤️ </div> 
+       <div class="weather-percent"> 12 </div>
+       <div class="weather-unit"> °C </div> 
+    </div>
     </div>
     <footer>
     <a href="https://github.com/Andile18" target="_blank"> This was coded by Zama Andile Dlamini </a>, code hosted on <a href="https://github.com/Andile18?tab=repositories" target="_blank">Github </a> & the website is hosted on <a href="https://app.netlify.com/sites/isimo-sezulu-project/overview" target="_blank"> Netlify</a> 
