@@ -88,3 +88,31 @@ main {
     font-size: 46px;
 
 }
+
+
+.weather-forecast{
+    margin-top: 20px;
+    text-align: left;
+
+}
+
+.weather-forecast-date{
+    font-size: 16px;
+
+}
+
+.weather-forecast-temperature{
+    font-size: 16px;
+    margin-top: 6px;
+
+}
+
+.max-temperature {
+    font-weight: bolder;
+
+}
+
+.min-temperature {
+    opacity: 0.3px;
+    font-weight: lighter;
+}
