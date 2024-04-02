@@ -133,8 +133,11 @@ main {    padding: 30px 0;
   }
   
   .weather-forecast-icon {
-    font-size: 38px;
-    text-align: center;
+    width: 88px;
+    display: block;
+    height: 88px;
+    margin: 0 auto;
+
   }
   .weather-forecast-temperatures {
     text-align: center;
@@ -155,3 +158,5 @@ main {    padding: 30px 0;
     font-size: 14px;
     color: rgba(0, 0, 0, 0.6);
   }
+
+  
