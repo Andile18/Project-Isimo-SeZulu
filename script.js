@@ -39,7 +39,7 @@ function displayForecast(response) {
     let forecastHtml = "";
   
     response.data.daily.forEach(function (day, index) {
-        if (index < 5) {
+        if (index < 6) {
        
       forecastHtml =
         forecastHtml +
@@ -66,7 +66,7 @@ function displayForecast(response) {
 
   function formatDay (timestamp) {
     let date = new Date(timestamp  * 1000)
-    let days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+    let days = ["Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"];
 
       return days[date.getDay()];
 
